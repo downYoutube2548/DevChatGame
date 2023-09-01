@@ -1,0 +1,4 @@
+name: DevChatGame
+version: '${version}'
+main: com.downyoutube.devchatgame.devchatgame.DevChatGame
+api-version: 1.20
