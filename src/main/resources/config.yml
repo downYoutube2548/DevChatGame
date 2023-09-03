@@ -1,0 +1,54 @@
+servers:
+  - svcom-home1
+  - svcom-spawn
+
+chat-game:
+  chat-game-message:
+    - ' '
+    - '      &5๑ &a๑ &c๑     &6♫ &e&lCHAT GAMES&r &6♫      &5๑ &a๑ &c๑ '
+    - '&f &fคุณต้องตอบคำถามนี้ภายใน &a{time}'
+    - '&f &a{chat game}'
+    - ' '
+    - '&f &fรางวัล: &b{reward}'
+    - ' '
+  message-for-winner: '&6&l[&e&lCHAT GAMES&e&l]&r &aคุณตอบคำถามถูกต้อง! คุณได้รับ &e{reward}'
+  chat-game-win: '&f &6&l[&e&lCHAT GAMES&e&l]&r &a{player} &fตอบคำถามถูกต้อง &aคำตอบคือ &e{answer}'
+  game-over: '&6&l[&e&lCHAT GAMES&e&l]&r &cจบเกม! ไม่มีใครสามารถตอบคำถามได้! &fคำตอบคือ &e{answer}'
+
+  time-for-answer: 60
+  period: 600
+
+  reward-each-level:
+    1:
+      - "&bเงินจำนวน &e100 &6⛃;money give {player} 100"
+      - " ;playsound minecraft:entity.firework_rocket.twinkle master {player} ~ ~ ~ 100 1"
+      - " ;playsound minecraft:entity.experience_orb.pickup master {player} ~ ~ ~ 100 1"
+      - " ;playsound minecraft:entity.firework_rocket.large_blast master {player} ~ ~ ~ 100 1"
+      - " ;mention 0 {player} 1 1 1 0.0625 0.2 1"
+      - " ;mention 1 {player} 2.5 180"
+    2:
+      - "&bเงินจำนวน &e200 &6⛃;money give {player} 200"
+      - " ;playsound minecraft:entity.firework_rocket.twinkle master {player} ~ ~ ~ 100 1"
+      - " ;playsound minecraft:entity.experience_orb.pickup master {player} ~ ~ ~ 100 1"
+      - " ;playsound minecraft:entity.firework_rocket.large_blast master {player} ~ ~ ~ 100 1"
+      - " ;mention 0 {player} 1 1 1 0.0625 0.2 1"
+      - " ;mention 1 {player} 2.5 180"
+    3:
+      - "&bเงินจำนวน &e300 &6⛃;money give {player} 300"
+      - " ;playsound minecraft:entity.firework_rocket.twinkle master {player} ~ ~ ~ 100 1"
+      - " ;playsound minecraft:entity.experience_orb.pickup master {player} ~ ~ ~ 100 1"
+      - " ;playsound minecraft:entity.firework_rocket.large_blast master {player} ~ ~ ~ 100 1"
+      - " ;mention 0 {player} 1 1 1 0.0625 0.2 1"
+      - " ;mention 1 {player} 2.5 180"
+    4:
+      - "&bเงินจำนวน &e400 &6⛃;money give {player} 400"
+      - " ;playsound minecraft:entity.firework_rocket.twinkle master {player} ~ ~ ~ 100 1"
+      - " ;playsound minecraft:entity.experience_orb.pickup master {player} ~ ~ ~ 100 1"
+      - " ;playsound minecraft:entity.firework_rocket.large_blast master {player} ~ ~ ~ 100 1"
+      - " ;mention 0 {player} 1 1 1 0.0625 0.2 1"
+      - " ;mention 1 {player} 2.5 180"
+
+translation:
+  hour: "ชั่วโมง"
+  minute: "นาที"
+  second: "วินาที"
